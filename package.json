@@ -1,0 +1,27 @@
+{
+  "name": "supplemental-lighting",
+  "version": "0.0.1",
+  "description": "Calculates the amount of sunlight as a percent of max from latitude and longitude data to calculate sunrise/sundown and uses Dark Sky weather API to detect and mimic weather conditions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charles-young/supplemental-lighting.git"
+  },
+  "author": "Charles Young",
+  "license" : "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/charles-young/supplemental-lighting/issues"
+  },
+  "homepage": "https://github.com/charles-young/supplemental-lighting#readme",
+  "dependencies": {
+    "dark-sky": "^1.1.4",
+    "dotenv": "^6.0.0",
+    "suncalc": "^1.8.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
